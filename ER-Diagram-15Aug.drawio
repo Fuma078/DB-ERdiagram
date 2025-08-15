@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
+  <diagram name="Page-1" id="kPW6Q-uU6MvsNbNIOXp1">
+    <mxGraphModel dx="2421" dy="1348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nXUQcJA8knITZQ03GCeb-1" value="CUSTOMER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-3" value="God Speed computer parts reseller&lt;div&gt;branches in Pantip Plaza, Computer Plaza and Robbinson&lt;/div&gt;&lt;div&gt;track sales, customers and employees&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-4" value="&lt;div&gt;Customer must contain: Name, Address, City, State, Zipcode, Telephone, Date of Birth, Primary Language&lt;/div&gt;/ Customers can only place orders through a branch&amp;nbsp;&lt;div&gt;Customers may place many orders&lt;/div&gt;&lt;div&gt;Customers don&#39;t have to order through same branch all time&lt;/div&gt;&lt;div&gt;Customers may have one or many accounts, although they may have no accounts.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Account must contain: Balance, Last payment date, Last payment Amount, Type&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Branch must contain: BranchNum, Location(Address, City, State, Zipcode), Square Footage&lt;/div&gt;&lt;div&gt;A branch may have many customers&lt;/div&gt;&lt;div&gt;A branch may sell all items or sell only certain items&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Order must contain: OrderDate, Credit Authorization Status&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Order can compose of one or many items&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Item must contain: Color, Size, Price, Type&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Items may be sold by one or more branches&lt;/div&gt;&lt;div&gt;Item can be composed of multiple items like a PC set (item 10) may consist of Monitor(item 11) and Keyboard (item20)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Employee must contain: Name, Address(Street, City, Province, Zipcode), Telephone, Date of Hire, Title, Salary, Skill, Age&lt;/div&gt;&lt;div&gt;Employee may have one or more dependents, wish to record the name of dependents (Name, Age, Relationship)&lt;/div&gt;&lt;div&gt;Employee can have one or more skills&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="660" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-6" value="BRANCH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="nXUQcJA8knITZQ03GCeb-9">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-8" value="ORDER" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="nXUQcJA8knITZQ03GCeb-9">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-10" value="ACCOUNT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-11" value="EMPLOYEE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-12" value="ITEM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-13" value="place" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-14" value="get" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-16" value="ONLINE&lt;div&gt;CUSTOMER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-17" value="ONSITE&lt;div&gt;CUSTOMER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-18" value="have" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-6" target="nXUQcJA8knITZQ03GCeb-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2050" y="390" as="sourcePoint" />
+            <mxPoint x="2100" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-20" value="" style="endArrow=ERoneToMany;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-18" target="nXUQcJA8knITZQ03GCeb-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2085" y="340" as="sourcePoint" />
+            <mxPoint x="2165" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-21" value="" style="endArrow=ERoneToMany;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-14" target="nXUQcJA8knITZQ03GCeb-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1760" y="309.43" as="sourcePoint" />
+            <mxPoint x="1840" y="309.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-8" target="nXUQcJA8knITZQ03GCeb-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1680" y="330" as="sourcePoint" />
+            <mxPoint x="1760" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-23" value="" style="endArrow=ERoneToMany;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-13" target="nXUQcJA8knITZQ03GCeb-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1380" y="320" as="sourcePoint" />
+            <mxPoint x="1460" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nXUQcJA8knITZQ03GCeb-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERoneToMany;startFill=0;" edge="1" parent="1" source="nXUQcJA8knITZQ03GCeb-1" target="nXUQcJA8knITZQ03GCeb-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="310" as="sourcePoint" />
+            <mxPoint x="1590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
